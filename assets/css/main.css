@@ -1,5 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif; /*Fallback de fuente de Google*/
     font-weight: 400;
     font-style: normal;
+}
+
+article.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: aquamarine;
+    border: 1px #000 solid;
+    margin: 0 auto;
+}
+
+article.card header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.card header div.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+article.card header div.view_more {
+    display: flex;
+    justify-content: flex-end;
 }
