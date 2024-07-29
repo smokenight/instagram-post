@@ -35,3 +35,21 @@ article.card header div.view_more {
     display: flex;
     justify-content: flex-end;
 }
+
+/*
+header div.logo div:first-child i {
+    font-size: 30px;
+}
+*/
+
+header div.logo div:nth-child(1) i {
+    font-size: 30px;
+}
+
+dl dt:nth-child(2n+1) {
+    color: green;
+}
+
+dl dd:nth-child(2n) {
+    color: red;
+}
